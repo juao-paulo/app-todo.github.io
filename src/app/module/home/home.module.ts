@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 
 // Page
 import { HomeComponent } from './pages/home/home.component';
+import { ResumoComponent } from './pages/resumo/resumo.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HomeComponent } from './pages/home/home.component';
     TodoInputAddItensComponent,
     TodoListComponent,
     HomeComponent,
+    ResumoComponent
   ],
   imports: [
     CommonModule,
